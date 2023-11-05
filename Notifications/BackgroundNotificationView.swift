@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct BackgroundNotificationView: View {
+    @Environment(\.scenePhase) var scenePhase
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Hello, World!")
+            .padding()
+            .onChange(of: scenePhase) { oldValue, newValue in
+                if newValue == .active {
+                    print("active")
+                } else if newValue == .inactive {
+                    print("inactive")
+                } else if newValue == .background {
+                    print("Background")
+                }
+            }
     }
 }
 
