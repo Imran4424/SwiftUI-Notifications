@@ -11,6 +11,7 @@
 		1D2C4ED52AF7770900E160A6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C4ED42AF7770900E160A6 /* HomeView.swift */; };
 		1D2C4ED72AF7770A00E160A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D2C4ED62AF7770A00E160A6 /* Assets.xcassets */; };
 		1D2C4EDA2AF7770A00E160A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D2C4ED92AF7770A00E160A6 /* Preview Assets.xcassets */; };
+		1D2C4EE12AF778D500E160A6 /* BackgroundNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C4EE02AF778D500E160A6 /* BackgroundNotificationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1D2C4ED42AF7770900E160A6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1D2C4ED62AF7770A00E160A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D2C4ED92AF7770A00E160A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D2C4EE02AF778D500E160A6 /* BackgroundNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundNotificationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1D2C4ED22AF7770900E160A6 /* NotificationsApp.swift */,
 				1D2C4ED42AF7770900E160A6 /* HomeView.swift */,
+				1D2C4EE02AF778D500E160A6 /* BackgroundNotificationView.swift */,
 				1D2C4ED62AF7770A00E160A6 /* Assets.xcassets */,
 				1D2C4ED82AF7770A00E160A6 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D2C4EE12AF778D500E160A6 /* BackgroundNotificationView.swift in Sources */,
 				1D2C4ED52AF7770900E160A6 /* HomeView.swift in Sources */,
 				1D2C4ED32AF7770900E160A6 /* NotificationsApp.swift in Sources */,
 			);
